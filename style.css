@@ -116,7 +116,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  margin-top: -60px;
     flex-direction: column;
   }
   .hh1{
@@ -161,10 +160,22 @@ body{
     }
     main{
       margin-left: 165px!important;
-      margin-top: -50px;
+      margin-top: -80px;
       padding-bottom: ;
     }
+    .hero .hh1{
+      font-size: 30px!important;
+       }
   }
+  @media screen and (max-width:1136px){
+   main{
+ margin-top: -73px;
+   }
+   .hero .hh1{
+  font-size: 30px;
+   }
+    }
+  
   /* *****************hero2**************************** */
   .sec01{
    
@@ -201,7 +212,7 @@ body{
 }
   @media screen and (max-width:360px) {
    .sec01{
-    margin-left: 154px !important;
+    margin-left: 170px !important;
    }
   }
   @media screen and (max-width:600px) {
@@ -343,6 +354,7 @@ flex-wrap: wrap;
 
  .hero8 ul li{
   list-style-type: none ;
+  font-weight: 100;
  }
  .logo{
   padding-left: 200px;
@@ -373,5 +385,11 @@ flex-wrap: wrap;
     padding-left: 55px;
     padding-right: 20px;
   }
+}
+/* ******************* */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
  
