@@ -118,7 +118,8 @@ body{
     align-items: center;
     flex-direction: column;
     padding-top: 70px;
-    padding-left: 1px;
+    padding-left: 5px;
+   
   }
   .hh1{
     font-size: 55px; 
@@ -130,7 +131,7 @@ body{
 
    background-color: rgb(247, 101, 225);
   margin-top: 0px;
-  width: 300px;
+  width: 220px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -149,38 +150,36 @@ body{
   .hero .dd1:hover{
     background-color: rgb(20, 84, 163);
   }
-  @media screen and (max-width:380px){
-    .hero .dd1{
-    width: 200px;
-    height: 60px;
+  @media screen and (max-width:510px) {
+    .hero{
+      padding-left: 55px;
+    padding-right: 55px;
     }
+   
+  }
+  @media screen and (max-width:390px) {
+   .hero dd1{
+
+   }
+   
+  }
+  @media screen and (max-width:380px){
+   .hero{
+    line-height: 45px;
+   }
     .hero a{      
-      font-size: 30px;
-      font-weight: 200;
+      font-size: 18px;
+      font-weight: 400;
       text-align: center;
       
     }
-    main{
-      margin-left: 165px!important;
-/* <<<<<<< HEAD */
-      margin-top: -70px;
-/* ======= */
-      margin-top: -80px;
-/* >>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf */
-      padding-bottom: ;
-    }
+   
     .hero .hh1{
       font-size: 30px!important;
        }
   }
   @media screen and (max-width:1136px){
-   main{
-/* <<<<<<< HEAD */
- margin-top: -48px;
-/* ======= */
- margin-top: -73px;
-/* >>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf */
-   }
+  
    .hero .hh1{
   font-size: 30px;
    }
@@ -200,13 +199,15 @@ body{
  
   
   .hero2{
-  padding-top: 0px !important;
+ 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-left: -154px !important;
     margin-right: -145px;
+    padding-bottom: 70px;
+    padding-top: 57px!important;
    
   }
   .hero2 h1{
@@ -232,6 +233,12 @@ body{
 
    }
   }
+  @media screen and (max-width:375px) {
+   .hero2{
+    margin-right: -127px !important;
+  }
+   }
+  
   @media screen and (max-width:600px) {
   .hero2 p{
     margin-left: -18px;
@@ -256,8 +263,8 @@ body{
 
     }
    
-      
-
+    
+  
     
   /* *********************hero3*********************** */
   .hero3{
@@ -265,8 +272,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: 11px;
-    padding-right: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
   
   .hero3 h1{
@@ -381,6 +388,7 @@ flex-wrap: wrap;
   
   flex-wrap: wrap;
   line-height: 30px;
+  padding-bottom: 0px!important;
   /* column-gap: 300px; */
  }
 
@@ -391,7 +399,8 @@ flex-wrap: wrap;
  .logo{
   padding-left: 200px;
   padding-right: 200px;
-  padding-bottom: 70px;
+  padding-bottom: 70px; 
+  padding-top: 0px;
  
   
  }
@@ -400,7 +409,7 @@ flex-wrap: wrap;
   display: flex;
   justify-content:end;
   column-gap: 40px;
-  font-size: 40px;
+  font-size: 20px;
  }
  @media screen and (max-width:700px) {
   .hero8{
@@ -435,7 +444,11 @@ flex-wrap: wrap;
   margin-right: 55px;
 }
 .logo{
-  padding-left: 55px;
-  padding-right: 55px;
+ 
+  margin-left: 55px;
+  margin-right: 55px;
+  padding-left: 0px;
+  padding-right: 0px;
+
 }
 }
