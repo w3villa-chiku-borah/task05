@@ -175,11 +175,11 @@ body{
   }
   @media screen and (max-width:1136px){
    main{
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
  margin-top: -48px;
-=======
+/* ======= */
  margin-top: -73px;
->>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf
+/* >>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf */
    }
    .hero .hh1{
   font-size: 30px;
