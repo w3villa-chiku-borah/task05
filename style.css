@@ -161,7 +161,11 @@ body{
     }
     main{
       margin-left: 165px!important;
+<<<<<<< HEAD
       margin-top: -70px;
+=======
+      margin-top: -80px;
+>>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf
       padding-bottom: ;
     }
     .hero .hh1{
@@ -170,7 +174,11 @@ body{
   }
   @media screen and (max-width:1136px){
    main{
+<<<<<<< HEAD
  margin-top: -48px;
+=======
+ margin-top: -73px;
+>>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf
    }
    .hero .hh1{
   font-size: 30px;
@@ -393,4 +401,8 @@ flex-wrap: wrap;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+<<<<<<< HEAD
  
+=======
+ 
+>>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf
