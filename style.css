@@ -16,7 +16,7 @@ body{
 }
  /* ****************HEADER******************** */
 .ptb-100{
-    padding-top: 70px;
+    padding-top: 52px;
     padding-bottom: 70px;
     margin-left: 200px;
     margin-right: 200px;
@@ -103,10 +103,10 @@ body{
 }
 @media screen and (max-width:795px) {
  .achoo{
-  margin-left:-100px;
+  margin-left:-148px;
  }
  .navbar .bar{
-  margin-right: 70px;
+  margin-right: 55px;
  }
 
 }
@@ -118,6 +118,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding-top: 70px;
+    padding-left: 1px;
   }
   .hh1{
     font-size: 55px;
@@ -161,11 +162,11 @@ body{
     }
     main{
       margin-left: 165px!important;
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
       margin-top: -70px;
-=======
+/* ======= */
       margin-top: -80px;
->>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf
+/* >>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf */
       padding-bottom: ;
     }
     .hero .hh1{
@@ -358,6 +359,7 @@ flex-wrap: wrap;
   justify-content:space-between;
   
   flex-wrap: wrap;
+  line-height: 30px;
   /* column-gap: 300px; */
  }
 
@@ -384,15 +386,15 @@ flex-wrap: wrap;
    margin-left: 55px ;
    margin-right: 55px;
   }
-  .logo{
+  /* .logo{
     margin-left: 55px ;
    margin-right: 55px;
-  }
+  } */
 }
  @media screen and (max-width:470px) {
   .logo{
-    padding-left: 55px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 /* ******************* */
@@ -401,8 +403,18 @@ flex-wrap: wrap;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-<<<<<<< HEAD
+/* <<<<<<< HEAD
  
 =======
  
->>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf
+>>>>>>> 424ba07b96cf74e53a5e19489be1f91a5ff98eaf */
+@media screen and (max-width:850px){
+.hero8{
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.logo{
+  padding-left: 55px;
+  padding-right: 55px;
+}
+}
